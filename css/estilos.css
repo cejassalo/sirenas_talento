@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* fuente universal para mi website*/
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+/*color de base para la web*/
+body{
+    background-color: rgb(245, 238, 248);
+}
+
+/* Clase para las palabras importantes del footer*/
+.fuenteNegrita{
+    font-weight: 600;
+}
+
+/* Clase para:
+index= section quienes somos, nuestros productos
+nuestros productos= arboldete, jabones, desodorante
+Contacto= formulario
+Carrito= table
+*/
+.colorLila{
+background-color: rgb(235, 222, 240)
+}
+
+/* Clase para:
+index= section por qué elegirnos
+nuestros productos= mantecas, exfoliantes
+Contacto=
+Carrito= main
+*/
+.colorMorado{
+background-color: rgb(215, 189, 226);
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.whatsApp{
+    color: #25d366;
+    font-size: 64px;
+}
+
+.insta{
+    color: rgb(219, 38, 186);
+    font-size: 64px;
+}
